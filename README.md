@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 💻 Kunj Desai — Portfolio Website
 Welcome to my personal portfolio website built with **React.js**, **Framer Motion**, and **modern UI design** principles.
 It showcases my work, projects, skills, and journey as a developer passionate about **AI, ML, and Web Technologies**.
@@ -80,3 +81,6 @@ Feel free to fork, use, and build upon it ⭐
 ---
 
 > *“Showcasing my work and passion through technology 💻”*
+=======
+# Portfolio-Main
+>>>>>>> a5f43314def25723c1c2064bc235c068b749cfbd
