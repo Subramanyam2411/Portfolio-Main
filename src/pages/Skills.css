@@ -1,0 +1,111 @@
+/* ---------- Header ---------- */
+
+.skills-header {
+    width: 94%;
+    max-width: 1200px;
+    margin: 12px auto 10px auto;
+    text-align: left;
+}
+
+.skills-header h2 {
+    font-size: 1.25rem;
+    color: #00ffe0;
+    font-weight: 600;
+    margin: 0;
+}
+
+.underline {
+    width: 60px;
+    height: 2px;
+    background: #00ffe0;
+    margin: 6px 0 8px 0;
+}
+
+.skills-header p {
+    color: #b0b0b0;
+    font-size: 0.95rem;
+}
+
+
+/* ---------- Stage ---------- */
+
+.skills-stage {
+    width: 94%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 40px 20px;
+    border-radius: 14px;
+    background: radial-gradient(circle at 50% 50%, #080808, #0f0f0f);
+    box-shadow: inset 0 0 40px rgba(0, 255, 255, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+/* ---------- Rows ---------- */
+
+.skills-row {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    /* space between orbs */
+    flex-wrap: wrap;
+}
+
+
+/* ---------- Orbs ---------- */
+
+.skill-circle {
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 255, 255, 0.05);
+    border: 1px solid rgba(0, 255, 255, 0.20);
+    backdrop-filter: blur(8px);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.skill-circle:hover {
+    transform: scale(1.12);
+    box-shadow: 0 0 22px rgba(0, 255, 255, 0.35);
+}
+
+.skill-circle img {
+    width: 28px;
+    height: 28px;
+    margin-bottom: 4px;
+}
+
+.skill-circle span {
+    font-size: 10px;
+    color: rgba(180, 255, 255, 0.95);
+    text-align: center;
+}
+
+
+/* ---------- Bottom Skill Boxes ---------- */
+
+.skills-table {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.skills-row.bottom-box {
+    gap: 32px;
+}
+
+.skill-box {
+    background: linear-gradient(145deg, #080808 0%, #0f0f0f 100%);
+    border: 1px solid rgba(0, 255, 255, 0.12);
+    border-radius: 12px;
+    padding: 18px 22px;
+    width: 300px;
+    text-align: left;
+}
