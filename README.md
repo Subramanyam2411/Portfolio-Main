@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 💻 Tamma Subramanyam — Portfolio Website
 Welcome to my personal portfolio website built with Framer Motion, and modern UI design principles. It showcases my work, projects, skills, and journey as a developer passionate about AI, ML, and Web Technologies.
 
