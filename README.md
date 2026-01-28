@@ -16,7 +16,7 @@ Welcome to my personal portfolio website built with Framer Motion, and modern UI
 
 | Category            | Tools / Libraries                        |
 | ------------------- | ---------------------------------------- |
-| **Frontend**        | React.js, HTML5, CSS3, JavaScript (ES6+) |
+| **Frontend**        | React.js, HTML5, CSS3, JavaScript        |
 | **Styling**         | Tailwind CSS / Custom CSS                |
 | **Animation**       | Framer Motion                            |
 | **Contact Form**    | EmailJS                                  |
